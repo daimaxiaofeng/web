@@ -44,16 +44,16 @@ export default [
   //   label: 'Styles',
   //   icon: mdiPalette
   // },
-  {
-    to: '/profile',
-    label: 'Profile',
-    icon: mdiAccountCircle
-  },
-  {
-    to: '/login',
-    label: 'Login',
-    icon: mdiLock
-  },
+  // {
+  //   to: '/profile',
+  //   label: 'Profile',
+  //   icon: mdiAccountCircle
+  // },
+  // {
+  //   to: '/login',
+  //   label: 'Login',
+  //   icon: mdiLock
+  // },
   {
     to: '/error',
     label: 'Error',

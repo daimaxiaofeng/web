@@ -34,32 +34,32 @@ export default [
       }
     ]
   },
-  {
-    isCurrentUser: true,
-    menu: [
-      {
-        icon: mdiAccount,
-        label: 'My Profile',
-        to: '/profile'
-      },
-      {
-        icon: mdiCogOutline,
-        label: 'Settings'
-      },
-      {
-        icon: mdiEmail,
-        label: 'Messages'
-      },
-      {
-        isDivider: true
-      },
-      {
-        icon: mdiLogout,
-        label: 'Log Out',
-        isLogout: true
-      }
-    ]
-  },
+  // {
+  //   isCurrentUser: true,
+  //   menu: [
+  //     {
+  //       icon: mdiAccount,
+  //       label: 'My Profile',
+  //       to: '/profile'
+  //     },
+  //     {
+  //       icon: mdiCogOutline,
+  //       label: 'Settings'
+  //     },
+  //     {
+  //       icon: mdiEmail,
+  //       label: 'Messages'
+  //     },
+  //     {
+  //       isDivider: true
+  //     },
+  //     {
+  //       icon: mdiLogout,
+  //       label: 'Log Out',
+  //       isLogout: true
+  //     }
+  //   ]
+  // },
   {
     icon: mdiThemeLightDark,
     label: 'Light/Dark',
@@ -80,10 +80,10 @@ export default [
   //   href: 'https://github.com/justboil/admin-one-react-tailwind',
   //   target: '_blank'
   // },
-  {
-    icon: mdiLogout,
-    label: 'Log out',
-    isDesktopNoLabel: true,
-    isLogout: true
-  }
+  // {
+  //   icon: mdiLogout,
+  //   label: 'Log out',
+  //   isDesktopNoLabel: true,
+  //   isLogout: true
+  // }
 ]
