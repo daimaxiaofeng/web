@@ -4,10 +4,14 @@ import Home from '@/views/HomeView.vue'
 
 const routes = [
   {
+    path: '/',
+    redirect: '/dashboard'
+  },
+  {
     meta: {
       title: 'Select style'
     },
-    path: '/',
+    path: '/style',
     name: 'style',
     component: Style
   },

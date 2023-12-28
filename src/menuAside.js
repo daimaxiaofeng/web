@@ -40,7 +40,7 @@ export default [
     icon: mdiResponsive
   },
   {
-    to: '/',
+    to: '/style',
     label: 'Styles',
     icon: mdiPalette
   },
