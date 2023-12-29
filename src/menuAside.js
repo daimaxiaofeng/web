@@ -60,11 +60,12 @@ export default [
     icon: mdiAlertCircle
   },
   {
-    label: 'Dropdown',
+    label: '在线应用',
     icon: mdiViewList,
     menu: [
       {
-        label: 'Item One'
+        to: '/apps/gif-maker',
+        label: 'GIF 表情包制作'
       },
       {
         label: 'Item Two'

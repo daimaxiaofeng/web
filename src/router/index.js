@@ -80,6 +80,14 @@ const routes = [
     path: '/error',
     name: 'error',
     component: () => import('@/views/ErrorView.vue')
+  },
+  {
+    meta: {
+      title: 'GIF 表情包制作'
+    },
+    path: '/apps/gif-maker',
+    name: 'gif-maker',
+    component: () => import('@/views/apps/GIFMakerView.vue')
   }
 ]
 
